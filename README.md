@@ -22,6 +22,7 @@ EFI folder - is my current boot stuff for Mojave.
 didnt work:
 * embedded Audio, Now connected over HDMI
 * NVRAM
-
+* USB mapping
+* CPU power management?
 
 
