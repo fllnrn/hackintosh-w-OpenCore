@@ -20,7 +20,6 @@ BIOS settings:
 
 EFI folder - is my current boot stuff for Mojave.
 didnt work:
-* embedded Audio, Now connected over HDMI
 * NVRAM
 * USB mapping	https://usb-map.gitbook.io/project/
 * CPU power management?
