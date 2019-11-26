@@ -22,7 +22,6 @@ EFI folder - is my current boot stuff for Mojave.
 didnt work:
 * embedded Audio, Now connected over HDMI
 * NVRAM
-* USB mapping
+* USB mapping	https://usb-map.gitbook.io/project/
 * CPU power management?
-
-
+* Sometimes "Couldn't allocate runtime area" ? https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/kalsr-fix
