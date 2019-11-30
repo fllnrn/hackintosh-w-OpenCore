@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Add</key>
+	<dict>
+		<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+		<dict>
+			<key>EFILoginHiDPI</key>
+			<data>
+			AAAAAA==
+			</data>
+			<key>SystemAudioVolume</key>
+			<data>
+			MA==
+			</data>
+			<key>SystemAudioVolumeDB</key>
+			<data>
+			8A==
+			</data>
+			<key>boot-args</key>
+			<string>keepsyms=1 slide=0 -v dart=0 debug=0x100</string>
+			<key>csr-active-config</key>
+			<data>
+			ZwIAAA==
+			</data>
+			<key>efi-boot-device</key>
+			<data>
+			PGFycmF5PjxkaWN0PjxrZXk+SU9NYXRjaDwva2V5PjxkaWN0Pjxr
+			ZXk+SU9Qcm92aWRlckNsYXNzPC9rZXk+PHN0cmluZz5JT01lZGlh
+			PC9zdHJpbmc+PGtleT5JT1Byb3BlcnR5TWF0Y2g8L2tleT48ZGlj
+			dD48a2V5PlVVSUQ8L2tleT48c3RyaW5nPjc3OTFGOERCLUY3NTEt
+			NEQ5My05RjYzLTEyODNEM0FENjVBRjwvc3RyaW5nPjwvZGljdD48
+			L2RpY3Q+PC9kaWN0PjwvYXJyYXk+
+			</data>
+			<key>efi-boot-device-data</key>
+			<data>
+			AgEMANBBAwoAAAAAAQEGAAAUAwUGAAoABAEqAAIAAAAoQAYAAAAA
+			ALCfigMAAAAA2/iRd1H3k02fYxKD061lrwICBARQAFwAUwB5AHMA
+			dABlAG0AXABMAGkAYgByAGEAcgB5AFwAQwBvAHIAZQBTAGUAcgB2
+			AGkAYwBlAHMAXABiAG8AbwB0AC4AZQBmAGkAAAB//wQA
+			</data>
+			<key>flagstate</key>
+			<data>
+			AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+			</data>
+			<key>fmm-computer-name</key>
+			<data>
+			0JDQvdC00YDQtdC54oCZcyBpTWFj
+			</data>
+			<key>myvar</key>
+			<data>
+			dGVzdA==
+			</data>
+			<key>prev-lang:kbd</key>
+			<data>
+			ZW4tR0I6MjUy
+			</data>
+			<key>security-mode</key>
+			<string>none</string>
+			<key>specialbootdevice</key>
+			<data>
+			AgEMANBBAwoAAAAAAQEGAAAUAwUGAAoABAEqAAIAAAAoQAYAAAAA
+			ALCfigMAAAAA2/iRd1H3k02fYxKD061lrwICf/8EAA==
+			</data>
+		</dict>
+	</dict>
+	<key>Version</key>
+	<integer>1</integer>
+</dict>
+</plist>

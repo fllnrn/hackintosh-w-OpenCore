@@ -4,6 +4,7 @@ Mobo: Gigabyte Z390 M (bios F3)
 Audio: ALC892
 CPU: i3-9100
 GPU: Intel UHD 630 (0x3e92)
+GPU: Planned Gigabyte 650 Ti 2GB
 Disk: NVMEe SSD WD WDS500G1B0C
 
 BIOS settings:
@@ -19,7 +20,6 @@ BIOS settings:
 +OS type: Windows 8.1/10
 
 EFI folder - is my current boot stuff for Mojave.
-didnt work:
-* NVRAM
-* CPU power management?
-* Sometimes "Couldn't allocate runtime area" ? https://khronokernel-2.gitbook.io/opencore-vanilla-desktop-guide/extras/kalsr-fix
+didnt work?:
+* iMessage
+* FaceTime

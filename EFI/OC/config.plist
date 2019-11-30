@@ -388,8 +388,7 @@
 	<key>Misc</key>
 	<dict>
 		<key>BlessOverride</key>
-		<array>
-		</array>
+		<array/>
 		<key>Boot</key>
 		<dict>
 			<key>ConsoleBehaviourOs</key>
@@ -539,6 +538,7 @@
 				<string>fmm-computer-name</string>
 				<string>nvda_drv</string>
 				<string>prev-lang:kbd</string>
+				<string>myvar</string>
 			</array>
 		</dict>
 	</dict>
@@ -549,17 +549,17 @@
 		<key>Generic</key>
 		<dict>
 			<key>MLB</key>
-			<string>C027363104NH69FAD</string>
+			<string>C02911405J9H69FFB</string>
 			<key>ROM</key>
-			<data>ESIzAAAA</data>
+			<data>tC6ZbQEe</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemProductName</key>
 			<string>iMac18,1</string>
 			<key>SystemSerialNumber</key>
-			<string>C02VC04JH7JY</string>
+			<string>C02YFQY8H7JY</string>
 			<key>SystemUUID</key>
-			<string>fc71fe05-f4d0-4b3e-a888-e16bb76e8d96</string>
+			<string>8f700aac-132c-11ea-8d71-362b9e155667</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
