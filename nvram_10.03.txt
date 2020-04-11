@@ -1,0 +1,7 @@
+fmm-computer-name	%d0%90%d0%bd%d0%b4%d1%80%d0%b5%d0%b9%e2%80%99s iMac
+bluetoothActiveControllerInfo	%020%f3%0c%00%00%00%00%c0%14\%f3p%0dB%85
+SystemAudioVolumeDB	%f7
+SystemAudioVolume	7
+csr-active-config	%e7%03%00%00
+EFIBluetoothDelay	%b8%0b
+boot-args	keepsyms=1 slide=0 dart=0

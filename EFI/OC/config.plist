@@ -394,7 +394,7 @@
 			<key>ShowPicker</key>
 			<true/>
 			<key>Timeout</key>
-			<integer>1</integer>
+			<integer>3</integer>
 			<key>UsePicker</key>
 			<true/>
 		</dict>
@@ -412,7 +412,7 @@
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
-			<false/>
+			<true/>
 			<key>ExposeSensitiveData</key>
 			<integer>3</integer>
 			<key>HaltLevel</key>
@@ -480,8 +480,6 @@
 			<dict>
 				<key>boot-args</key>
 				<string>keepsyms=1 slide=0 dart=0</string>
-				<key>csr-active-config</key>
-				<data>5wMAAA==</data>
 				<key>nvda_drv</key>
 				<data></data>
 				<key>prev-lang:kbd</key>
