@@ -1,9 +1,9 @@
 # hackintosh
 stuff to install and run my first mac
-Mobo: Gigabyte Z390 M (bios F3)
+Mobo: Gigabyte Z390 M (bios F5)
 Audio: ALC892
 CPU: i3-9100
-GPU: Intel UHD 630 (0x3e92)
+GPU: Intel UHD 630 (0x3e91)
 Disk: NVMEe SSD WD WDS500G1B0C
 
 BIOS settings:
@@ -13,8 +13,10 @@ Disable:
 	-CSM
 	-Intel SGX
 	-Intel Platform Trust
-Enable:
-	+EHCI Hand-off
+Enable: 
++igpu memory limit: max
++  4g encoding enable
++EHCI Hand-off
 	+XHCI Hand-off
 	+OS type: Windows 8.1/10
 
@@ -25,6 +27,12 @@ didnt work?:
 * FaceTime
 
 ? DisplayPort (NotTested)
+? try to remove 
+    framebuffer-patch-enable 
+    framebuffer-stolenmem 
+    ig-platform-id
+? try to add
+    igfxfw | Data | <02 00 00 00>
 
 
 TOOLS:
