@@ -40,11 +40,9 @@
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array>
-		</array>
+		<array/>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>FadtEnableReset</key>
@@ -61,9 +59,10 @@
 	</dict>
 	<key>Booter</key>
 	<dict>
+		<key>Patch</key>
+		<array/>
 		<key>MmioWhitelist</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AvoidRuntimeDefrag</key>
@@ -100,6 +99,8 @@
 			<false/>
 			<key>SyncRuntimePermissions</key>
 			<true/>
+			<key>AllowRelocationBlock</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>DeviceProperties</key>
@@ -169,6 +170,8 @@
 		<key>Add</key>
 		<array>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -185,6 +188,8 @@
 				<string>Lilu.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -201,6 +206,8 @@
 				<string>VirtualSMC.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -217,6 +224,8 @@
 				<string>AppleALC.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -233,6 +242,8 @@
 				<string>IntelMausi.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -249,6 +260,8 @@
 				<string>NVMeFix.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -265,6 +278,8 @@
 				<string>SMCProcessor.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -281,6 +296,8 @@
 				<string>SMCSuperIO.kext</string>
 			</dict>
 			<dict>
+				<key>Arch</key>
+				<string>x86_64</string>
 				<key>Comment</key>
 				<string></string>
 				<key>MaxKernel</key>
@@ -298,18 +315,24 @@
 			</dict>
 		</array>
 		<key>Block</key>
-		<array>
-		</array>
+		<array/>
 		<key>Emulate</key>
 		<dict>
+			<key>DummyPowerManagement</key>
+			<false/>
 			<key>Cpuid1Data</key>
 			<data></data>
 			<key>Cpuid1Mask</key>
 			<data></data>
+			<key>MaxKernel</key>
+			<string></string>
+			<key>MinKernel</key>
+			<string></string>
 		</dict>
+		<key>Force</key>
+		<array/>
 		<key>Patch</key>
-		<array>
-		</array>
+		<array/>
 		<key>Quirks</key>
 		<dict>
 			<key>AppleCpuPmCfgLock</key>
@@ -324,9 +347,11 @@
 			<false/>
 			<key>DisableIoMapper</key>
 			<true/>
+			<key>DisableLinkeditJettison</key>
+			<true/>
 			<key>DisableRtcChecksum</key>
 			<false/>
-			<key>DummyPowerManagement</key>
+			<key>ExtendBTFeatureFlags</key>
 			<false/>
 			<key>ExternalDiskIcons</key>
 			<false/>
@@ -342,6 +367,19 @@
 			<false/>
 			<key>XhciPortLimit</key>
 			<true/>
+			<key>LegacyCommpage</key>
+			<false/>
+			<key>ForceSecureBootScheme</key>
+			<false/>
+		</dict>
+		<key>Scheme</key>
+		<dict>
+			<key>FuzzyMatch</key>
+			<true/>
+			<key>KernelArch</key>
+			<string>x86_64</string>
+			<key>KernelCache</key>
+			<string>Auto</string>
 		</dict>
 	</dict>
 	<key>Misc</key>
@@ -376,9 +414,9 @@
 		<key>Debug</key>
 		<dict>
 			<key>AppleDebug</key>
-			<false/>
+			<true/>
 			<key>ApplePanic</key>
-			<false/>
+			<true/>
 			<key>DisableWatchDog</key>
 			<true/>
 			<key>DisplayDelay</key>
@@ -393,8 +431,7 @@
 			<integer>0</integer>
 		</dict>
 		<key>Entries</key>
-		<array>
-		</array>
+		<array/>
 		<key>Security</key>
 		<dict>
 			<key>AllowNvramReset</key>
@@ -409,14 +446,27 @@
 			<integer>6</integer>
 			<key>HaltLevel</key>
 			<integer>2147483648</integer>
+			<key>PasswordHash</key>
+			<data></data>
+			<key>PasswordSalt</key>
+			<data></data>
 			<key>ScanPolicy</key>
 			<integer>0</integer>
+			<key>SecureBootModel</key>
+			<string>Default</string>
 			<key>Vault</key>
 			<string>Optional</string>
+			<key>ApECID</key>
+			<integer>0</integer>
+			<key>BlacklistAppleUpdate</key>
+			<true/>
+			<key>DmgLoading</key>
+			<string>Signed</string>
+			<key>EnablePassword</key>
+			<false/>
 		</dict>
 		<key>Tools</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 	<key>NVRAM</key>
 	<dict>
@@ -501,12 +551,18 @@
 	<dict>
 		<key>Automatic</key>
 		<true/>
+		<key>CustomMemory</key>
+		<false/>
 		<key>Generic</key>
 		<dict>
 			<key>AdviseWindows</key>
 			<false/>
+			<key>SystemMemoryStatus</key>
+			<string>Auto</string>
 			<key>MLB</key>
 			<string>C02907501GULNV91F</string>
+			<key>ProcessorType</key>
+			<integer>0</integer>
 			<key>ROM</key>
 			<data>tC6ZbQMe</data>
 			<key>SpoofVendor</key>
@@ -557,7 +613,7 @@
 			<key>MinimumVolume</key>
 			<integer>50</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Auto</string>
 			<key>VolumeAmplifier</key>
 			<integer>143</integer>
 		</dict>
@@ -565,7 +621,6 @@
 		<true/>
 		<key>Drivers</key>
 		<array>
-			<string>ApfsDriverLoader.efi</string>
 			<string>HfsPlus.efi</string>
 			<string>OpenRuntime.efi</string>
 			<string>AudioDxe.efi</string>
@@ -616,6 +671,8 @@
 			<string>BuiltinGraphics</string>
 			<key>UgaPassThrough</key>
 			<false/>
+			<key>ForceResolution</key>
+			<false/>
 		</dict>
 		<key>ProtocolOverrides</key>
 		<dict>
@@ -651,6 +708,10 @@
 			<false/>
 			<key>UnicodeCollation</key>
 			<false/>
+			<key>AppleImg4Verification</key>
+			<false/>
+			<key>AppleSecureBoot</key>
+			<false/>
 		</dict>
 		<key>Quirks</key>
 		<dict>
@@ -670,8 +731,7 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
-		<array>
-		</array>
+		<array/>
 	</dict>
 </dict>
 </plist>
